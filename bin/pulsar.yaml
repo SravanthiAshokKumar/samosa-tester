@@ -8,7 +8,7 @@ maxConcurrentLookups: 1000
 maxLookups: 10000
 listenerThreads: 2
 partitions: 1
-#topicType: non_persistent
+topicType: non_persistent
 # persistence:
 #   ensembleSize: 1 
 #   writeQuorum: 1

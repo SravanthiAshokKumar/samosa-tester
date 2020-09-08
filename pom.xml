@@ -19,10 +19,10 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
- <dependency>
+    <dependency>
         <groupId>org.apache.pulsar</groupId>
         <artifactId>pulsar-client-all</artifactId>
-        <version>${pulsar.version}</version>
+	<version>${pulsar.version}</version>
     </dependency>
     <dependency>
         <groupId>com.google.guava</groupId>
@@ -58,9 +58,9 @@
        <version>1.6.4</version>
     </dependency>
     <dependency>
-        <groupId>com.github.Manasvini</groupId>
+        <groupId>epl.pulsar-location-samosa</groupId>
         <artifactId>pulsar-location-samosa</artifactId>
-        <version>10a8393a2c</version>
+        <version>1.0</version>
     </dependency>
 
     <dependency>

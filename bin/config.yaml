@@ -10,10 +10,10 @@ indexConfig:
     indexType: RTREE
 locationChangeInterval: 1000
 payloadFile: payload-1Kb.data
-pulsarConfigFile: pulsar.yaml
+pulsarConfigFile: ~/pulsar-location-samosa/pulsar.yaml
 producerTrajectoryFiles:
-    - "0.0_0.txt"
+    - "~/pulsar-location-samosa/data/output/0.0_0.txt"
 consumerTrajectoryFiles:
-    - "0.0_0.txt"   
+    - "~/pulsar-location-samosa/data/output/0.0_0.txt"   
 testDurationSeconds: 30
 outputFile: "output_10sec_1prod_1cons.json"
