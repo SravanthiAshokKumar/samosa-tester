@@ -64,9 +64,9 @@
     </dependency>
 
     <dependency>
-        <groupId>com.github.Manasvini</groupId>
-        <artifactId>indexPerf</artifactId>
-        <version>v1.4</version>
+        <groupId>epl.pubsub.location.indexperf</groupId>
+        <artifactId>indexperf</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
     </dependency>
   </dependencies>
  
