@@ -1,19 +1,17 @@
-numProducers: 1
-numConsumers: 1
-numPartitionsPerTopic: 1
+clientTrajectoryFilePath: /home/surveillance/pulsar-location-samosa/data/output/
+clientTrajectoryFiles:
+- /home/surveillance/pulsar-location-samosa/data/output/0.0_0.txt
 indexConfig:
-    minX: 33.7757
-    minY: 84.3963
-    maxX: 34.7757
-    maxY: 85.3963
-    blockSize: 0.01
-    indexType: RTREE
-locationChangeInterval: 1000
+  blockSize: 0.01
+  indexType: GEOHASH
+  maxX: 34.7757
+  maxY: 85.3963
+  minX: 33.7757
+  minY: 84.3963
+locationChangeInterval: 10000
+numClients: 10
+numPartitionsPerTopic: 1
+outputFile: output_10sec_10client.json
 payloadFile: payload-1Kb.data
 pulsarConfigFile: /home/surveillance/pulsar-location-samosa/pulsar.yaml
-producerTrajectoryFiles:
-    - "/home/surveillance/pulsar-location-samosa/data/output/0.0_0.txt"
-consumerTrajectoryFiles:
-    - "/home/surveillance/pulsar-location-samosa/data/output/0.0_0.txt"   
 testDurationSeconds: 30
-outputFile: "output_10sec_1prod_1cons.json"
